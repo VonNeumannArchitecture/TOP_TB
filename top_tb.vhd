@@ -109,7 +109,7 @@ begin
     lw1: LeitwerkCode 
         port map (
             CLK => global_clk, 
-            Datenbus => databus_all,
+            Datenbus => databus,
             CS => en_all,
             RW => rw_all,
             Adressbus => addrbus_all,
